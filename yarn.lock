@@ -4825,6 +4825,27 @@ remark-rehype@^10.0.0:
     mdast-util-to-hast "^12.1.0"
     unified "^10.0.0"
 
+remix-auth-auth0@^1.9.0:
+  version "1.9.0"
+  resolved "https://registry.yarnpkg.com/remix-auth-auth0/-/remix-auth-auth0-1.9.0.tgz#e28ddbdd3f83424004d384d0bc2688d9c30ff2d4"
+  integrity sha512-W119Fhju2m/EnGzB4eiSrPsBBk71STSRa8IE49KpqrZ2xYmOqXAgqbronRw/xEYbw3ZR99Sty/iSypYWxcRsdg==
+  dependencies:
+    remix-auth-oauth2 "1.10.0"
+
+remix-auth-oauth2@1.10.0:
+  version "1.10.0"
+  resolved "https://registry.yarnpkg.com/remix-auth-oauth2/-/remix-auth-oauth2-1.10.0.tgz#500e46354a549598d63a7af0bab3be6986ff7900"
+  integrity sha512-YFtpwrCpX54qT9l0gQgFJayLzexNk6xz41eu/jhpn+dSqeFUFiHmUD6e1XfEmjiEd+mFWq8/z4xWyn5h+Zhw4A==
+  dependencies:
+    debug "^4.3.4"
+
+remix-auth@^3.6.0:
+  version "3.6.0"
+  resolved "https://registry.yarnpkg.com/remix-auth/-/remix-auth-3.6.0.tgz#3ed6a070a11e72f13a4c10ed0704a5e411cbdf02"
+  integrity sha512-mxlzLYi+/GKQSaXIqIw15dxAT1wm+93REAeDIft2unrKDYnjaGhhpapyPhdbALln86wt9lNAk21znfRss3fG7Q==
+  dependencies:
+    uuid "^8.3.2"
+
 "require-like@>= 0.1.1":
   version "0.1.2"
   resolved "https://registry.yarnpkg.com/require-like/-/require-like-0.1.2.tgz#ad6f30c13becd797010c468afa775c0c0a6b47fa"
@@ -5156,6 +5177,7 @@ string-hash@^1.1.1:
   integrity sha512-kJUvRUFK49aub+a7T1nNE66EJbZBMnBgoC1UbCZ5n6bsZKBRga4KgBRTMn/pFkeCZSYtNeSyMxPDM0AXWELk2A==
 
 "string-width-cjs@npm:string-width@^4.2.0", string-width@^4.1.0:
+  name string-width-cjs
   version "4.2.3"
   resolved "https://registry.yarnpkg.com/string-width/-/string-width-4.2.3.tgz#269c7117d27b05ad2e536830a8ec895ef9c6d010"
   integrity sha512-wKyQRQpjJ0sIp62ErSZdGsjMJWsap5oRNihHhu6G7JVO/9jIB6UyevL+tXuOqrng8j/cxKTWyWUwvSTriiZz/g==
@@ -5613,6 +5635,11 @@ utils-merge@1.0.1:
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/utils-merge/-/utils-merge-1.0.1.tgz#9f95710f50a267947b2ccc124741c1028427e713"
   integrity sha512-pMZTvIkT1d+TFGvDOqodOclx0QWkkgi6Tdoa8gC8ffGAAqz9pzPTZWAybbsHHoED/ztMtkv/VoYTYyShUn81hA==
+
+uuid@^8.3.2:
+  version "8.3.2"
+  resolved "https://registry.yarnpkg.com/uuid/-/uuid-8.3.2.tgz#80d5b5ced271bb9af6c445f21a1a04c606cefbe2"
+  integrity sha512-+NYs2QeMWy+GWFOEm9xnn6HCDp0l7QBD7ml8zLUmJ+93Q5NF0NocErnwkTkXVFNiX3/fpC6afS8Dhb/gz7R7eg==
 
 uvu@^0.5.0:
   version "0.5.6"
