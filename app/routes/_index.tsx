@@ -1,12 +1,9 @@
-import type {LoaderFunctionArgs, MetaFunction} from "@remix-run/node";
-import {authenticator} from "~/services/auth.server";
-import {useLoaderData} from "@remix-run/react";
+import type { LoaderFunctionArgs, MetaFunction } from "@remix-run/node";
+import { authenticator } from "~/services/auth.server";
+import { useLoaderData } from "@remix-run/react";
 
 export const meta: MetaFunction = () => {
-  return [
-    { title: "New Remix App" },
-    { name: "description", content: "Welcome to Remix!" },
-  ];
+  return [{ title: "New Remix App" }, { name: "description", content: "Welcome to Remix!" }];
 };
 
 export let loader = async ({ request }: LoaderFunctionArgs) => {
@@ -22,20 +19,12 @@ export default function Index() {
       <h1>Welcome to Remix</h1>
       <ul>
         <li>
-          <a
-            target="_blank"
-            href="https://remix.run/tutorials/blog"
-            rel="noreferrer"
-          >
+          <a target="_blank" href="https://remix.run/tutorials/blog" rel="noreferrer">
             15m Quickstart Blog Tutorial
           </a>
         </li>
         <li>
-          <a
-            target="_blank"
-            href="https://remix.run/tutorials/jokes"
-            rel="noreferrer"
-          >
+          <a target="_blank" href="https://remix.run/tutorials/jokes" rel="noreferrer">
             Deep Dive Jokes App Tutorial
           </a>
         </li>
@@ -44,9 +33,7 @@ export default function Index() {
             Remix Docs
           </a>
         </li>
-        <li>
-          Logged in user is: {user?.displayName}
-        </li>
+        <li>Logged in user is: {user?.displayName}</li>
       </ul>
     </div>
   );
