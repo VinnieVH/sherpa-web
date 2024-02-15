@@ -1,4 +1,3 @@
-// app/routes/auth/auth0.tsx
 import type { ActionFunctionArgs } from "@remix-run/node";
 import { redirect } from "@remix-run/node";
 
